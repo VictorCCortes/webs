@@ -1,0 +1,195 @@
+/*Classes generals*/
+.w25 {
+    width: 25%;
+}
+.w33 {
+    width: 33%;
+}
+.w40 {
+    width: 40%;
+}
+.w50 {
+    width: 50%;
+}
+.w60 {
+    width: 60%;
+}
+.w75 {
+    width: 75%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.backgrey {
+    background-color: lightgray;
+}
+.aligncenter {
+    text-align: center;
+}
+.alignright {
+    text-align: right;
+}
+
+
+/*CSS específic*/
+
+/*Header*/
+header ul li {
+    display: inline-block;
+    padding: 10px;  
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+header img, footer img {
+    width: 30%;
+}
+header ul {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+header {
+    border-bottom: 2px red solid;
+}
+
+/*Footer*/
+footer {
+    border-top: 2px red solid;
+    font-size: 15px;
+}
+footer h1 {
+    font-size: 22px;
+    margin-left: 12px;
+}
+#fletxa {
+    width: 5%;
+}
+footer div.row {
+    align-items: center;
+}
+
+/*Pàgines principal, notícies i campanyes*/
+main.row {
+    justify-content: center;
+}
+article.campanyes p, article.campanyes h1 {
+    margin-right: 30px;
+}
+article.noticies p, article.noticies h1 {
+    margin-right: 30px;
+}
+.cndestacades {
+    margin-bottom: 40px;
+}
+nav ul li:hover {
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+#destacats article {
+    box-shadow: 6px 7px 10px black;
+}
+.enllacpagina {
+    color: black;
+}
+#quisom img {
+    width: 65%;
+    margin-left: 150px;
+}
+#quisom {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#pagina {
+    margin-bottom: 50px;
+}
+#destacats article {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border: 2px red solid;
+    border-radius: 20px;
+}
+#destacats img {
+    width: 50%;
+    border-radius: 10px;
+}
+#relacionades div ul, #relacionades div h2 {
+   margin-left: 200px;
+}
+#relacionades {
+    margin-bottom: 30px;
+}
+#destacats {
+    justify-content: space-around;
+}
+#associat {
+    border-radius: 20px;
+    border: 2px red solid;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+#europa, #quota, #privacitat {
+    margin-bottom: 15px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.explicacio {
+    font-size: 20px;
+}
+.titolquisom {
+    margin-top: 65px;
+}
+.imatgescampanyes, .imatgesnoticies {
+    width: 50%;
+    margin-left: 200px;
+}
+.infoextra {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.noticies, .campanyes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.titolnoticies, .titolcampanyes{
+    font-size: 50px;
+    text-decoration: underline;
+}
+main.aligncenter p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+main.aligncenter h1 {
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+a:hover {
+    color: red;
+}
+
+/*Formulari*/
+input[type="submit"] {
+    margin-top: 20px;
+}
+input, label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#titolform {
+    font-size: 60px;
+    text-decoration: underline;
+}
+#form {
+    justify-content: space-around;
+}

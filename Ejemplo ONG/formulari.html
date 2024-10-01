@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Associat</title>
+    <link rel="stylesheet" href="estils/estils.css">
+    <link rel="shortcut icon" href="imatges/mundo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="row" id="head">
+        <div class="w25">
+            <a href="index.html">
+                <img src="imatges/logo.png" alt="Logo ONG"> 
+            </a>
+        </div>
+        <nav class="w75">
+            <ul>
+                <li><a href="index.html">Pàgina d'inici</a></li>
+                <li><a href="campanyes.html">Campanyes</a></li>
+                <li><a href="noticies.html">Notícies</a></li>
+                <li><a href="formulari.html">Associat</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <h1 class="aligncenter" id="titolform">Associat</h1>
+        <p class="aligncenter">Associat amb nosaltres per rebre informació sobre les nostres campanyes, 
+            sobre les nostres activitats<br> i sobre les notícies més importants relacionades amb tot el móin que ens envolta, 
+            selecciona una quota<br> i aporta el teu granet de sorra per millorar la situació de moltes persones que ho 
+            necesiten.
+        </p>
+        <div class="row" id="form">
+            <div class="w40">
+                <form action="" class="aligncenter backgrey" id="associat">
+                    <label for="nom">Nom:</label>
+                    <input type="text" name="nom" id="nom" required><br>
+                    <label for="cognom">Cogom:</label>
+                    <input type="text" name="cognom" id="cognom" required><br>
+                    <label for="">Tractament:</label>
+                    <label for="sr">Sr.</label>
+                    <input type="radio" name="tractament" id="sr">
+                    <label for="sra">Sra.</label>
+                    <input type="radio" name="tractament" id="sra">
+                    <label for="sense">Sense tractament</label>
+                    <input type="radio" name="tractament" id="sense"><br>
+                    <label for="codipostal">Codi postal:</label>
+                    <input type="number" name="codipostal" id="codipostal" required><br>
+                    <label for="telefon">Telèfon:</label>
+                    <input type="number" name="telefon" id="telefon"><br>
+                    <label for="email">Correu electrònic:</label>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="quota">Quota:</label>
+                    <select name="quota" id="quota" required>
+                        <option value="">-Selecciona una opció de quota-</option>
+                        <option value="5">5€</option>
+                        <option value="10">10€</option>
+                        <option value="15">15€</option>
+                        <option value="20">20€</option>
+                        <option value="25">25€</option>
+                    </select><br>
+                    <label for="">Temes d'interés</label><br>
+                    <label for="ucrania">Guerra d'Ucrania:</label>
+                    <input type="checkbox" name="ucrania" id="ucrania"><br>
+                    <label for="palestina">Guerra de Palestina:</label>
+                    <input type="checkbox" name="palestina" id="palestina"><br>
+                    <label for="africa">Situació a Àfrica:</label>
+                    <input type="checkbox" name="africa" id="africa"><br>
+                    <label for="america">Situació a Amèrica:</label>
+                    <input type="checkbox" name="america" id="america"><br>
+                    <label for="europa">Situació a Europa:</label>
+                    <input type="checkbox" name="europa" id="europa"><br>
+                    <label for="privacitat">Política de privacitat:</label>
+                    <input type="checkbox" name="privacitat" id="privacitat"><br>
+                    <label for="news">Subscripció a la nostra Newsletter:</label>
+                    <input type="checkbox" name="news" id="news"><br>
+                    <input type="submit" value="Associat">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="backgrey" id="footer">
+        <div class="row">
+            <div class="w33">
+                <a href="index.html"><img src="imatges/flecha.png" alt="Fletxa cap a dalt" id="fletxa"></a>
+            </div>
+            <div class="w33">
+                <a href="https://www.msf.es/" target="_blank"><img src="imatges/xarxes.png" alt="Logos xarxes socials"></a>
+            </div>
+            <div class="w33">
+                <h1>Dades de contacte:</h1>
+                <ul>
+                    <li><a href="tel:+34933046100" target="_blank">Telèfon: 933 046 100</a></li>
+                    <li><a href="mailto:oficina@barcelona.msf.org" target="_blank">Email: oficina@barcelona.msf.org</a></li>
+                    <li><a href="https://maps.app.goo.gl/6VqTE9MYnqhcwUmb8" target="_blank">Direcció: Zamora, 54, 08005 Barcelona</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

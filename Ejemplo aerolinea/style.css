@@ -1,0 +1,241 @@
+.hybrid {
+    width: 98%;
+    max-width: 1400px;
+    min-width: 320px;
+}
+
+.m0a {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner {
+    margin: 10px;
+    padding: 10px;
+}
+
+.w66 {
+    width: 66.666%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w33 {
+    width: 33.333%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #131A51;
+    border-bottom: 3px solid rgb(110, 110, 110);
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#section1 {
+    background-image: url(img/logistics2_hero_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+    color: white;
+}
+
+#section1 h1 {
+    border-bottom: 1px solid white;
+    font-size: 38px;
+    padding-bottom: 5px;
+}
+
+h1 span {
+    color: #DE485A;
+}
+
+#section1 p {
+    font-size: 15px;
+}
+
+#section1 a {
+    background-color: #DE485A;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-right: 40px solid #b83947;
+}
+
+#section2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#section2 span {
+    color: #DE485A;
+}
+
+#section2 h2, #section2 h6 {
+    color: #131A51;
+}
+
+#section2 h6 {
+    font-size: 15px;
+}
+
+#section2 h2 {
+    padding-top: 15px;
+}
+
+#section2 .inner {
+    background-color: rgb(240, 238, 238);
+}
+
+#section3 {
+    background-image: url(img/home_logistics2_sectionbg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    color: white;
+}
+
+#section3 h2 {
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+#section3 span {
+    color: #DE485A;
+}
+
+#section3 .inner {
+    background-color: #332C59;
+    padding: 0px;
+}
+
+#section3 h6 {
+    color: #DE485A;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+#section3 p {
+    font-size: 17px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+#section4 {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#section4 .row {
+    justify-content: center;
+}
+
+#section4 .inner {
+    background-color: rgb(240, 238, 238);
+    padding: 40px 20px;
+}
+
+#section4 h2 {
+    color: #131A51;
+}
+
+footer {
+    background-color: #332C59;
+    color: white;
+}
+
+footer .w33 {
+    text-align: right;
+}
+
+footer a {
+    background-color: #DE485A;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-right: 40px solid #b83947;
+}
+
+footer h6 {
+    font-size: 18px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    #row1 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #primeraw50 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    ul {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .w25 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #nav {
+        display: none;
+    }
+    .w25, .w50, .w33, .w66 {
+        width: 100%;
+    }
+
+    footer .row {
+        flex-wrap: wrap;
+    
+    }
+
+    #footer, #footer div.w33 {
+        text-align: center;
+    }
+}
